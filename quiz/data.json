@@ -1,0 +1,61 @@
+{
+    "quiz": [ 
+        {
+            "questions": [
+
+            
+                {
+                    "question": "A fêmea do louva-a-deus é conhecida por se alimentar do macho após a cópula, estabelecendo uma relação conhecida como:",
+                    "options": [
+                        "Predatismo",
+                        "Herbivoria",
+                        "Competição",
+                        "Canibalismo"
+                    ],
+                    "answer":"Canibalismo"
+                }, 
+                {
+                    "question": "Todas as relações ecológicas listadas abaixo são interespecíficas, exceto:",
+                    "options": [
+                        "Comensalismo",
+                        "Colônia",
+                        "Mutualismo",
+                        "Parasitismo"
+                    ],
+                    "answer":"Colônia"
+                },
+                {
+                    "question": "Marque o único exemplo de relação ecológica harmônica.",
+                    "options": [
+                        "Amensalismo",
+                        "Canibalismo",
+                        "Competição",
+                        "Comensalismo"
+                    ],
+                    "answer":"Comensalismo"
+                },
+                {
+                    "question": "Dos tipos de relações ecológicas seguintes, o único que ocorre exclusivamente entre organismos da mesma espécie é:",
+                    "options": [
+                        "Inquilinismo",
+                        "Mutualismo",
+                        "Herbivoria",
+                        "Sociedade"
+                    ],
+                    "answer":"Sociedade"
+                },
+                {
+                    "question": "São exemplos de relações ecológicas interespecíficas desarmônicas:",
+                    "options": [
+                        "Sociedade, predação e comensalismo",
+                        "Colônia, parasitismo e mutualismo",
+                        "Predação, parasitismo e herbivoria",
+                        "Inquilinismo, herbivoria e mutualismo"
+                    ],
+                    "answer":"Predação, parasitismo e herbivoria"
+                }
+            ]
+        }
+    ]
+    
+}

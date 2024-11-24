@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --azul-background: #131B25;
+    --azul-escuro: #1D2D3E;
+    --azul-claro: #5FCAD8 ;
+    --white: #FFFFFF;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: auto;
+
+}
+
+nav a {
+    color: var(--white);
+    font-family: 'Inter';
+    font-weight: bold;
+    font-size: 24px;
+
+    padding: 50px 85px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: var(--azul-claro);
+}
+
+nav img {
+    max-width: 40%;
+
+}
+
+body {
+    background-color: var(--azul-escuro);
+    color: var(--white);
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main {
+    background-color: var(--azul-background);
+    border-radius: 50px;
+    height: 760px;
+    width: 1203px;
+}
+
+.img {
+    position: relative;
+    display: inline-block;
+        
+}
+
+.img img {
+    display: block;
+
+}
+
+
+
+.yt {
+    position: absolute;
+    left:82%;
+    transform: translateY(5%);
+    bottom: -5px;
+
+    cursor: pointer;
+}
+
+
+img .imagem{
+    width: 500px;
+    height: 258px;
+}
+
+img .yt {
+    width: 82px;
+    height: 58px;
+
+    display: flex;
+    justify-content: flex-end;
+
+
+}
+
+
+.conteudo {
+    display: flex;
+    justify-content: space-between;
+
+
+    margin-top: 3%;
+    gap: 70px;
+    margin: 90px;
+}
+
+h1 {
+    font-family: 'Staatliches';
+    font-weight: 100;
+    font-size: 50px;
+    text-align: center;
+
+    margin-top: 7rem;
+}
+
+p {
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 10px;
+
+}
+
+ul {
+    display: block; 
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: 24px;
+    padding-left: 20px;
+}
+
+
+
+
+
+.seta {
+    position: absolute;
+    margin-left: 90%;
+}
+
+.seta img {
+    width: 77px;
+    height: 76px;
+}
+
+.seta-voltar {
+    position: absolute;
+    margin-right: 90%;
+}
+
+.seta-voltar img {
+    width: 77px;
+    height: 76px;
+}

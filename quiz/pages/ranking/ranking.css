@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --azul-escuro: #1D2D3E;
+    --azul-claro: #5FCAD8 ;
+    --verde-claro: #F0F9EE;
+    --cinza: #D9D9D9;
+    --white: #FFFFFF;
+    --button: #0A0E13;
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: auto;
+ 
+    padding: 50px 85px;
+
+    margin-bottom: -50px;
+}
+
+nav img {
+    max-width: 40%;
+
+}
+
+body {
+    background-color: var(--azul-escuro);
+}
+
+.container {
+
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+}
+
+main {
+    background-color: #000000;
+    border-radius: 50px;
+    height: 624px;
+    width: 1076px;
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+
+}
+
+main h1 {
+    color: var(--white);
+    font-family: 'Staatliches';
+    font-weight: 100;
+    font-size: 50px;
+
+    margin-bottom: 5rem;
+   
+}
+
+main p {
+
+    color: black;
+    font-family: 'Inter';
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.ranking {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    
+}
+
+.ranking img {
+    margin-right: 25px;
+}
+
+.div {
+    background-color: var(--cinza);
+    border-radius: 35px;
+    width: 788px;
+    height: 85px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.name {
+    font-family: 'Inter';
+    font-weight: bold;
+    font-size: 24px;
+
+    flex-grow: 1;
+    text-align: left;
+    margin-left: 35px;
+  }
+  
+.score {
+    font-family: 'Inter';
+    font-weight: bold;
+    font-size: 24px;
+    margin-right: 25px;
+}
+
+main img {
+    display: flex;
+    justify-content: flex-end;
+}
+
+button {
+    background-color: #000000;
+    color: var(--white);
+    border: none; 
+    cursor: pointer;  
+    border-radius: 50px;
+    width: 375px;
+    height: 85px;
+
+    
+    font-family: 'Inter';
+    font-weight: bold;
+    font-size: 24px;
+        
+    margin-top: 2rem;
+    
+}
+
+button:hover {
+    background-color: #333333;
+}
+
+
+

@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --azul-escuro: #1D2D3E;
+    --azul-claro: #5FCAD8 ;
+    --verde-claro: #F0F9EE;
+    --cinza: #D9D9D9;
+    --white: #FFFFFF;
+    --button: #0A0E13;
+}
+
+header {
+    background-color: var(--azul-escuro);
+    top: 0; 
+    width: 100%;
+    position: fixed;
+
+    height: 1440px 132px;
+
+    
+    left: 0;
+    z-index: 1;
+
+    object-fit: contain;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: auto;
+
+
+}
+
+nav a {
+    color: var(--white);
+    font-family: 'Inter';
+    font-weight: bold;
+    font-size: 24px;
+
+    padding: 50px 85px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: var(--azul-claro);
+}
+
+nav img {
+    max-width: 40%;
+
+}
+
+
+
+
+main {
+    background-image: url("/imgs/wall-e.png");
+    background-size: cover;
+    background-position: center center;
+
+    height: 555px;
+    width: 1440;
+    margin-top: 11.6rem;
+    padding-bottom: 45rem;
+
+    display: flex;
+    justify-content: center;
+}
+
+
+.inicial {
+    margin-left: 70px;
+    padding-top: 170px;
+
+}
+
+
+
+
+
+
+
+
+h1 {
+    font-family: 'Sedan';
+    font-size: 48px;
+    padding-bottom: 1rem;
+}    
+
+p {
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1.3;
+    max-width: 50%;
+
+
+}
+
+button {
+    background-color: var(--cinza);
+    border: none; 
+    cursor: pointer;  
+    border-radius: 50px;
+    width: 276px;
+    height: 66px;
+
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 24px;
+
+
+    margin-top: 1rem;
+    margin-bottom:30px;
+    
+}
+
+button:hover {
+    background-color: #c2c2c2;
+}
+
+
+
+
+.series{
+    background-color: var(--azul-escuro);
+
+    padding: 20px 70px;
+    padding-bottom: 2rem;
+
+}
+
+h2 {
+    color: white;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 40px;
+    padding: 20px 0;
+
+    margin-top: 20px;
+}
+
+.series img {
+    width: 100%;
+}
+
+.movies {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.movies img:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s;
+}
