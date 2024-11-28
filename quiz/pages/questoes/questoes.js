@@ -164,10 +164,6 @@ function finish() {
 
 
 
-
-
-
-
 async function iniciar() {
     // Carrega as perguntas e monta o quiz
     await buscarPerguntas();
@@ -179,7 +175,3 @@ async function iniciar() {
 }
 
 iniciar();
-
-
-//4 bimestre
-
